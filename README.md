@@ -13,15 +13,15 @@
 
 - Admin Dashboard: Show all users’ availability and options for scheduling sessions. Enable scheduling of one-on-one or group sessions.
 ## Example Frontend Structure:
-src/
-├── components/
-│   ├── AvailabilityCalendar.tsx
-│   ├── AdminDashboard.tsx
-│   └── SessionOverview.tsx
-├── services/
-│   ├── api.ts
-│   └── auth.ts
-└── App.tsx
+- src/
+- ├── components/
+- │   ├── AvailabilityCalendar.tsx
+- │   ├── AdminDashboard.tsx
+- │   └── SessionOverview.tsx
+- ├── services/
+- │   ├── api.ts
+- │   └── auth.ts
+- └── App.tsx
 ## 3. Backend: Node.js with Express
 - Key Features:
 - User Authentication: Implement JWT-based authentication.
@@ -29,18 +29,18 @@ src/
 - Availability Conflicts: Check for conflicting availability while scheduling sessions.
 - Notifications: Use Nodemailer for email notifications or integrate with SMS APIs like Twilio.
 ## Example Backend Structure:
-src/
-├── controllers/
-│   ├── userController.js
-│   └── adminController.js
-├── models/
-│   ├── User.js
-│   ├── Availability.js
-│   └── Session.js
-├── routes/
-│   ├── userRoutes.js
-│   └── adminRoutes.js
-└── server.js
+- src/
+- ├── controllers/
+- │   ├── userController.js
+- │   └── adminController.js
+- ├── models/
+- │   ├── User.js
+- │   ├── Availability.js
+- │   └── Session.js
+- ├── routes/
+- │   ├── userRoutes.js
+- │   └── adminRoutes.js
+- └── server.js
 ## 4. Database: MongoDB
 Key Features:
 - User Model: Store user information like username, email, and role (admin or user).
