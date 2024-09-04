@@ -56,3 +56,7 @@ Key Features:
 - User logs in and set their availability using a drag-and-drop calendar interface.
 - Admin views availability of all users and schedules sessions, checking for conflicts automatically.
 - Users and admins get notifications via email or SMS for any scheduled, rescheduled, or canceled sessions.
+##  Sample Output
+- User Availability Calendar: Users can see their availability in a weekly view and dynamically adjust time slots.
+- Admin Dashboard: Admins can view all user availabilities, schedule sessions, and get notifications for session updates.
+
